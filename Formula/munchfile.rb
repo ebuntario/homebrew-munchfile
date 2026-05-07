@@ -1,26 +1,26 @@
 class Munchfile < Formula
   desc "Watch local files, share live URLs"
   homepage "https://github.com/ebuntario/munchfile-cli"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ebuntario/munchfile-cli/releases/download/v#{version}/munchfile-#{version}-darwin-arm64.tar.gz"
-      sha256 "1b944be6e6fb503f9810a0856f22e205324fa9abb83910b906a581de7f6ddcc6"
+      sha256 "afdee7845f2248acfc32f0c72b4a3bee97d7e54a01ff803a9454020c80778d82"
     else
       url "https://github.com/ebuntario/munchfile-cli/releases/download/v#{version}/munchfile-#{version}-darwin-x64.tar.gz"
-      sha256 "1f2a96a01010c2f7353d48e6835f392e104db778dbf38cf711f5d93182583a65"
+      sha256 "e599ce8aae702b0d2d588d6e4101033ac92546721bc326a7a24420564564914a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ebuntario/munchfile-cli/releases/download/v#{version}/munchfile-#{version}-linux-arm64.tar.gz"
-      sha256 "fe9d5bd6822f8b209112d3408df985a1ebde8feb27aabaa35e4464a4e2e82878"
+      sha256 "e3f228c1b8d73a19da6be80a4c1f4fe42b927f3d39cae40dfe817451d3069a76"
     else
       url "https://github.com/ebuntario/munchfile-cli/releases/download/v#{version}/munchfile-#{version}-linux-x64.tar.gz"
-      sha256 "95ced8cd682d8ca482a95d77e15c4c7def8d7cd47b681978f783429397dd501f"
+      sha256 "66adb59124f4ad268fed8a3ea4a85f0ac82e196b1760c9a8b36629ca67fc2017"
     end
   end
 
