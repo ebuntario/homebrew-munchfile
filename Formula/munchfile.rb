@@ -1,10 +1,10 @@
 class Munchfile < Formula
   desc "Watch local files, share live URLs"
   homepage "https://munchfile.com"
-  url "https://registry.npmjs.org/@munchfile/cli/-/cli-0.7.2.tgz"
-  sha256 "63845044488508893b7c845587d939e63a5416d6ee525fd71575ffd88e9e465d"
+  url "https://registry.npmjs.org/@munchfile/cli/-/cli-0.7.3.tgz"
+  sha256 "867024f0842ff37f7bf288247036eaacda49c34091b2ea17601e03e84c96d97c"
   license "MIT"
-  version "0.7.2"
+  version "0.7.3"
 
   depends_on "node"
 
